@@ -6,7 +6,8 @@ The scarcity of accessible medical image data poses a significant obstacle in ef
 ![image](https://github.com/lyskds/LLCM/assets/162650359/6192f441-50e2-453c-a966-36c54f77c32b)
 
 **</h2>Results comparison with the other state-of-the-art (SOTA) models</h2>**
-
+![image](https://github.com/lyskds/LLCM/assets/162650359/178fcf44-74a9-4d01-846e-63aa0e3199a3)
+Yo may refer to our paper for more details
 
 **</h2>How to fine-tune with your dataset</h2>**
 - Install these libraries: 
