@@ -18,3 +18,5 @@ pip install diffusers transformers accelerate
 - Run 'inference.py' after loading the fine-tuned weight to genetate images by specifying the prompt.
 
 **</h2>Demo</h2>**
+![image](https://github.com/lyskds/LLCM/assets/162650359/ca43b8c4-2dea-4d60-b369-7b72165c7e47)
+
