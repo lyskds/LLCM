@@ -6,5 +6,7 @@ The scarcity of accessible medical image data poses a significant obstacle in ef
 ![image](https://github.com/lyskds/LLCM/assets/162650359/6192f441-50e2-453c-a966-36c54f77c32b)
 
 # How to fine-tune with your datset
-You may launch this script train_text_to_img_llcm_launch.py after loading our model weight and train it to obtained the fine-tuned weight.
-With this fine-tuned weight, you may run inference.py  to genetate images by specifying the prompt.
+You may launch this script train_text_to_img_llcm_launch.py after loading our model weight and train it to obtain the fine-tuned weight.
+
+# How to fine-tune with your datset
+You may run inference.py after loading the fine-tuned weight to genetate images by specifying the prompt.
