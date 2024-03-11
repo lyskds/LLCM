@@ -5,6 +5,9 @@ The scarcity of accessible medical image data poses a significant obstacle in ef
 
 ![image](https://github.com/lyskds/LLCM/assets/162650359/6192f441-50e2-453c-a966-36c54f77c32b)
 
+**</h2>Results comparison with the other state-of-the-art (SOTA) models</h2>**
+
+
 **</h2>How to fine-tune with your dataset</h2>**
 - Install these libraries: 
 pip install diffusers transformers accelerate
@@ -12,3 +15,5 @@ pip install diffusers transformers accelerate
   
 **</h2>How to generate image with fine-tuned weight</h2>**
 - You may run 'inference.py' after loading the fine-tuned weight to genetate images by specifying the prompt.
+
+**</h2>Demo</h2>**
