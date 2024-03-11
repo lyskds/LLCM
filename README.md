@@ -7,14 +7,14 @@ The scarcity of accessible medical image data poses a significant obstacle in ef
 
 **</h2>Results comparison with the other state-of-the-art (SOTA) models</h2>**
 ![image](https://github.com/lyskds/LLCM/assets/162650359/178fcf44-74a9-4d01-846e-63aa0e3199a3)
-Yo may refer to our paper for more details
+- You may refer to our paper for more details
 
 **</h2>How to fine-tune with your dataset</h2>**
 - Install these libraries: 
 pip install diffusers transformers accelerate
-- You may launch this script 'train_text_to_img_llcm_launch.py' after loading our model weight and train it to obtain the fine-tuned weight.
+- Launch this script 'train_text_to_img_llcm_launch.py' after loading our model weight and train it to obtain the fine-tuned weight.
   
 **</h2>How to generate image with fine-tuned weight</h2>**
-- You may run 'inference.py' after loading the fine-tuned weight to genetate images by specifying the prompt.
+- Run 'inference.py' after loading the fine-tuned weight to genetate images by specifying the prompt.
 
 **</h2>Demo</h2>**
