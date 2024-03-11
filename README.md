@@ -5,7 +5,7 @@ The scarcity of accessible medical image data poses a significant obstacle in ef
 
 ![image](https://github.com/lyskds/LLCM/assets/162650359/6192f441-50e2-453c-a966-36c54f77c32b)
 
-</h2>How to fine-tune LLCM with your datset</h2>
+</h2># How to fine-tune LLCM with your datset</h2>
 - Install these libraries: 
 pip install diffusers transformers accelerate
 - You may launch this script 'train_text_to_img_llcm_launch.py' after loading our model weight and train it to obtain the fine-tuned weight.
