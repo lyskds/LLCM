@@ -20,7 +20,7 @@ pip install diffusers transformers accelerate
 - python inference.py
 
 **</h2>Demo</h2>**
-- If you want to generate medical images using our model weight, [visit our website](https://2cf1-129-98-38-34.ngrok-free.app). From the drop-down menu, you can select any prompt and the number of images you want to generate.
+- If you want to generate medical images using our model weight, [visit our website](https://2cf1-129-98-38-34.ngrok-free.app). From the drop-down menu, select any prompt and the number of images. You can generate as many images as per your requirement. The more the number of images to be generated, the more the inference time. So, we restrict the maximum number of images to 4 for a single click on our website. 
 - An example is shown below
   
 ![image](https://github.com/lyskds/LLCM/assets/162650359/e2492e5f-9e4a-4cdd-8485-de84c5b36da6)
