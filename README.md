@@ -12,14 +12,15 @@ The scarcity of accessible medical image data poses a significant obstacle in ef
 **</h2>How to fine-tune our model with your dataset</h2>**
 - Install these libraries: 
 pip install diffusers transformers accelerate
-- Launch this script 'train_text_to_img_llcm_launch.py' after loading our model weight and train it to obtain the fine-tuned weight.
+- Launch this script 'train_text_to_img_llcm_launch.py' using the command shown below, after loading our model weight and train it to obtain the fine-tuned weight.
+- python train_text_to_img_llcm_launch.py
   
 **</h2>How to generate image with your fine-tuned weight</h2>**
-- Run 'inference.py' after loading the fine-tuned weight to genetate images by specifying the prompt.
+- Run 'inference.py' using the command shown below, after loading the fine-tuned weight to genetate images by specifying the prompt.
+- python inference.py
 
 **</h2>Demo</h2>**
-- [Visit our website](https://2cf1-129-98-38-34.ngrok-free.app) and add a prompt to generate medical image of your choice
-
+- If you want to generate medical images using our model weight, [visit our website](https://2cf1-129-98-38-34.ngrok-free.app) and add your prompt.
 - An example is shown below
 ![image](https://github.com/lyskds/LLCM/assets/162650359/ca43b8c4-2dea-4d60-b369-7b72165c7e47)
 
