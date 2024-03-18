@@ -23,5 +23,6 @@ pip install diffusers transformers accelerate
 - If you want to generate medical images using our model weight, [visit our website](https://2cf1-129-98-38-34.ngrok-free.app) and add your prompt.
 - An example is shown below
   
-![image](https://github.com/lyskds/LLCM/assets/162650359/ca43b8c4-2dea-4d60-b369-7b72165c7e47)
+![image](https://github.com/lyskds/LLCM/assets/162650359/e2492e5f-9e4a-4cdd-8485-de84c5b36da6)
+
 
