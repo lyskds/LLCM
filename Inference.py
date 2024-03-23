@@ -7,8 +7,6 @@ unet = UNet2DConditionModel.from_pretrained("path/to/fine-tuned/weight", torch_d
 
 # Initialize the diffusion pipeline
 pipeline = DiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", unet=unet, torch_dtype=torch.float16, variant="fp16")
-pipeline.safety_checker = None
-pipeline.requires_safety_checker = False
 
 # Set the loaded scheduler in the pipeline
 pipeline.scheduler = LCMScheduler.from_config(pipeline.scheduler.config)
