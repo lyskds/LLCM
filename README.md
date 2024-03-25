@@ -9,6 +9,12 @@ The scarcity of accessible medical image data poses a significant obstacle in ef
 ![image](https://github.com/lyskds/LLCM/assets/162650359/178fcf44-74a9-4d01-846e-63aa0e3199a3)
 - You may refer to our paper for more details
 
+**</h2>Demo</h2>**
+- If you want to generate medical images using our model weight, [visit our website](https://2cf1-129-98-38-34.ngrok-free.app). From the drop-down menu, select any prompt and the number of images. You may generate any number of images as per your requirement. The more the number of images to be generated, the more the inference time. So, we restrict the maximum number of images to 4 for a single click on our website. 
+- An example is shown below
+  
+![image](https://github.com/lyskds/LLCM/assets/162650359/e2492e5f-9e4a-4cdd-8485-de84c5b36da6)
+
 **</h2>How to fine-tune our model with your dataset</h2>**
 - Install these libraries: 
 pip install diffusers transformers accelerate
@@ -18,11 +24,5 @@ pip install diffusers transformers accelerate
 **</h2>How to generate image with your fine-tuned weight</h2>**
 - Run 'inference.py' using the command shown below, after loading your fine-tuned weight to genetate images by specifying the prompt.
 - python inference.py
-
-**</h2>Demo</h2>**
-- If you want to generate medical images using our model weight, [visit our website](https://2cf1-129-98-38-34.ngrok-free.app). From the drop-down menu, select any prompt and the number of images. You may generate any number of images as per your requirement. The more the number of images to be generated, the more the inference time. So, we restrict the maximum number of images to 4 for a single click on our website. 
-- An example is shown below
-  
-![image](https://github.com/lyskds/LLCM/assets/162650359/e2492e5f-9e4a-4cdd-8485-de84c5b36da6)
 
 
